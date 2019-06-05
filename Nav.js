@@ -9,23 +9,27 @@ class Nav extends React.Component{
         }
         const navStyle={
             float: 'right',
-            margin: '15px 30px 30px',
+            margin: '25px 30px 30px',
             display: 'block',
-            fontSize: '14px',
+            fontSize: '12px',
             letterSpacing: '2px',
+            fontWeight: 'bold',
         }
         const buffer={
             height: '40vh',
         }
+        const adder={
+            marginRight: '60px'
+        }
         return(
             <div style={style}>
                 <ul style={navStyle}>
-                    <li style={navStyle}>CONTACT</li>
+                    <li style={navStyle}><span style={adder}>CONTACT</span></li>
                     <li style={navStyle}>PORTFOLIO</li>
                     <li style={navStyle}>HOME</li>
                 </ul>
                 <div style={buffer}></div>
-                <Header name='Web Development' mini=' Vanilla JS - React - Node '/>
+                <NavHeader firstLetter = 'W' name='EB' secondLetter = 'D' secondName = 'EVELOPMENT' mini='Vanilla JS | React | Node'/>
             </div>
         )
     }
