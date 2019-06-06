@@ -4,6 +4,8 @@ class App extends React.Component{
             <div>
                 <Nav />
                 <Main />
+                <br />
+                <Footer />
             </div>
         )
     }

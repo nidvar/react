@@ -8,7 +8,7 @@ class NavHeader extends React.Component{
             padding: '20px 10px 5px 10px'
         }
         const hStyle={
-            marginBottom:0,
+            marginBottom:'10px',
             fontWeight:'bold',
             letterSpacing: '2px',
         }

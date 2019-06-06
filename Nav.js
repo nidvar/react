@@ -24,9 +24,9 @@ class Nav extends React.Component{
         return(
             <div style={style}>
                 <ul style={navStyle}>
-                    <li style={navStyle}><span style={adder}>CONTACT</span></li>
-                    <li style={navStyle}>PORTFOLIO</li>
-                    <li style={navStyle}>HOME</li>
+                    <li style={navStyle}><span style={adder}><a href='#'>CONTACT</a></span></li>
+                    <li style={navStyle}><a href='#'>PORTFOLIO</a></li>
+                    <li style={navStyle}><a href='#'>HOME</a></li>
                 </ul>
                 <div style={buffer}></div>
                 <NavHeader firstLetter = 'W' name='EB' secondLetter = 'D' secondName = 'EVELOPMENT' mini='Vanilla JS | React | Node'/>
